@@ -1,57 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>padding</title>
+    <title>Table</title>
     <style>
-        #one{
-            background-color: rgb(73, 109, 15);
-            margin: 2px;
-            border-radius: 20px;
-            border-radius: 7px 7px 0 0;
-            color: #fff;    
-        }
-        #seven{
-            background-color: rgb(73, 109, 15);
-            margin: 2px;
-            border-radius: 20px;
-            border-radius: 0 0 7px 7px;
-            color: #fff;
-        }
-        #two{
-            background-color: rgb(73, 109, 15);
-            margin: 2px;
-            border: 2px; 
-            color: #fff;
-        }
-        #three{
-            background-color: rgb(73, 109, 15);
-            margin: 2px;
-            border: 2px;
-            color: #fff;
-        }
-        p{
-            padding: 5px;
-            margin: 1px;
-            border: 2px;
-            border-color: #fff;
+        table {
+        width: 100%;
+        background: white;
+        color: white;
+        border-spacing: 1px;
+   }
+        td, th {
+        background: maroon; 
+        padding: 5px;
         }
     </style>
 </head>
 <body>
-    <div id="one">
-        <p>Пирамида Хеопса</p>
-    </div>
-    <div id="two">
-        <p>Висячие сады</p>
-    </div>
-    <div id="three">    
-        <p>Калосс Родосский</p>
-    </div>
-    <div id="seven">
-        <p>Александрийский маяк</p>
-    </div>
+    <table>
+        <tr><th>Имя</th><th>Оружие</th></tr>
+        <tr><td>Леонардо</td><td>Катаны</td></tr>
+        <tr><td>Рафаэль</td><td>Кинжалы-сай</td></tr>
+        <tr><td>Донателло</td><td>Шест-бо</td></tr>
+        <tr><td>Микеланджело</td><td>Нунчаки</td></tr>
+    </table>
 </body>
 </html>
